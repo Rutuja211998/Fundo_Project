@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block body %}
+<form action="/register" method="post">
+    <div class="container">
+        <h1>User Registration</h1>
+        <p>Please fill in this form to complete your registration.</p>
+        <div>
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+  </div>
+<div>
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required>
+</div>
+    <div>
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+    </div>
+        <button type="submit">register</button>
+    </div>
+</form>
+</div>
+{% endblock %}
+
+
+<!--{% extends "base.html" %}-->
+<!--{% block body %}-->
+<!--<form action="/register" method="post">-->
+<!--    <div class="container">-->
+<!--        <h1>User Registration</h1>-->
+<!--        <p>Please fill in this form to complete your registration.</p>-->
+<!--        <div>-->
+<!--    <label for="username"><b>Username</b></label>-->
+<!--    <input type="text" placeholder="Enter Username" name="username" required>-->
+<!--  </div>-->
+<!--<div>-->
+<!--    <label for="email"><b>Email</b></label>-->
+<!--    <input type="email" placeholder="Enter Email" name="email" required>-->
+<!--</div>-->
+<!--    <div>-->
+<!--        <label for="password"><b>Password</b></label>-->
+<!--        <input type="password" placeholder="Enter Password" name="password" required>-->
+<!--    </div>-->
+<!--        <button type="submit">register</button>-->
+<!--    </div>-->
+<!--</form>-->
+<!--{% endblock %}-->
